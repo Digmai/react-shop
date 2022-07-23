@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: url('https://kayamo.eu/design/themes/airy_mobile/media/images/patterns/Airy/general_bg_image.png?1651142314');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.carousel,
+.carousel-item {
+  max-height: 300px !important;
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  max-height: 100% !important;
+}
+
+.container-fluid,
+.offcanvas-end,
+.PositionProduct {
+  background: #fff;
+}
+
+
+.PositionProduct {
+  margin-top: 100px;
+
+}
+
+
+.modal-footer {
+  background: #fafafa;
+}
+
+/* .d-inline-block.align-top.badge.rounded-pill.bg-danger{
+  position: relative;
+  
+}
+
+@media (min-width: 992px) { 
+  .d-inline-block.align-top.badge.rounded-pill.bg-danger{
+    position: absolute;
+    top: 5px;
+    margin-left: 30px;
+  }
+} */
+
+
+html {
+  position: relative;
+}
+
+body {
+  /* Margin bottom by footer height */
+  /* margin-bottom: 120px; */
+
+}
+
+.footer {
+  margin-top: 20%;
+  /* position: absolute;
+  bottom: 0;
+  width: 100%; */
+  background: rgb(232 232 232);
+
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+a {
+  color: var(--bs-link-color);
+  text-decoration: none;
+}
+
+div[data-slider="Carousel"].carousel-item{
+
+  max-height: 300px !important;
+  margin-top: 0;
+
+}
+
+.Page{
+  margin-top: 20px;
+}
+
+
+@media (max-width: 992px)  {
+
+  .Page{
+    display: flex;
+    flex-direction: column;
+  }
+}
